@@ -178,6 +178,10 @@
   border-bottom: 1px solid var(--text-color);
 }
 
+.link_cover_text:focus {
+  outline: none;
+}
+
 .link_cover_text:focus-visible {
   text-decoration: none;
   border: solid 1px var(--text-color);
